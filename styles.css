@@ -1,0 +1,86 @@
+/* --- Reset & Global Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+}
+
+/* --- Header Section --- */
+header {
+    background-color: #F0A535; /* Matches the golden/orange hue */
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-title {
+    transform: scale(0.25);
+    position: relative;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Space between links */
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #fff; /* Simple hover effect */
+}
+
+/* --- Hero Section --- */
+.hero {
+    /* Using a high-quality Unsplash image to match the food theme */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Aligns content towards the bottom */
+}
+
+/* The Text Box Overlay */
+.hero-content {
+    background-color: white;
+    padding: 15px 30px;
+    margin-bottom: 80px; /* Pushes the box up from the very bottom edge */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1;
+    background-position: center;
+    position: absolute;
+}
+
+.hero img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh; /* Takes up 80% of the viewport height */
+    width: 100%;
+    display: block;
+}   
+.hero-content h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+}
