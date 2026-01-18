@@ -51,7 +51,6 @@ nav a:hover {
 
 /* --- Hero Section --- */
 .hero {
-    /* Using a high-quality Unsplash image to match the food theme */
     position: relative;
     display: flex;
     justify-content: center;
@@ -84,3 +83,51 @@ nav a:hover {
     letter-spacing: 1px;
     color: #000;
 }
+ 
+/* this is a new section "Everyday Categories*/
+.everyday-categories {
+    max-width: 1200px; /* Prevents it from getting too wide on huge screens */
+    margin: 0 auto;    /* Centers the section on the page */
+    padding: 60px 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Clean sans-serif font */
+    color: #1a1a1a;
+}
+
+.categories-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px
+}
+
+.categories-header {
+    margin-bottom: 40px;
+}
+
+.categories-header h2 {
+    font-size: 2rem;
+    max-width: 900px;
+}
+
+.category-meal {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-meal img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.category-meal p {
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+}
+
+
