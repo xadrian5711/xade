@@ -84,6 +84,8 @@ nav a:hover {
     color: #000;
 }
  
+
+
 /* this is a new section "Everyday Categories*/
 .everyday-categories {
     max-width: 1200px; /* Prevents it from getting too wide on huge screens */
@@ -99,11 +101,11 @@ nav a:hover {
     gap: 30px
 }
 
-.categories-header {
+.categories-info {
     margin-bottom: 40px;
 }
 
-.categories-header h2 {
+.categories-info h2 {
     font-size: 2rem;
     max-width: 900px;
 }
@@ -130,4 +132,36 @@ nav a:hover {
     color: #000;
 }
 
+/*.healthy-recipies {
+    background-color: gray;
+    padding: 15px 30px;
+    margin-bottom: 80px; /* Pushes the box up from the very bottom edge 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1;
+    background-position: center;
+    position: absolute;
+ } */
 
+
+.healthy-recipies {
+    background-color: grey;
+    max-width: 1200px; /* Prevents it from getting too wide on huge screens */
+    margin: 0 auto;    /* Centers the section on the page */
+    padding: 60px 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Clean sans-serif font */
+    color: #1a1a1a;
+}
+
+.recipe-images-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px
+}
+
+.recipe-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
