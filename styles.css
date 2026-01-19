@@ -231,3 +231,23 @@ footer {
 .footer-links a:hover {
     opacity: 0.7;
 }
+
+/* Burger Otw section*/ 
+
+.burger-hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Aligns content towards the bottom */
+}
+
+/* The Text Box Overlay */
+.burger-otw {
+    background-color: white;
+    padding: 15px 30px;
+    margin-bottom: 80px; /* Pushes the box up from the very bottom edge */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1;
+    background-position: center;
+    position: absolute;
+}
