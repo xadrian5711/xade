@@ -108,6 +108,7 @@ nav a:hover {
 .categories-info h2 {
     font-size: 2rem;
     max-width: 900px;
+    margin-bottom: 4px;
 }
 
 .category-meal {
@@ -132,19 +133,10 @@ nav a:hover {
     color: #000;
 }
 
-/*.healthy-recipies {
-    background-color: gray;
-    padding: 15px 30px;
-    margin-bottom: 80px; /* Pushes the box up from the very bottom edge 
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    z-index: 1;
-    background-position: center;
-    position: absolute;
- } */
 
 
 .healthy-recipies {
-    background-color: grey;
+    background-color: rgb(205, 203, 203);
     max-width: 1200px; /* Prevents it from getting too wide on huge screens */
     margin: 0 auto;    /* Centers the section on the page */
     padding: 60px 20px;
@@ -156,6 +148,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px
+   
 }
 
 .recipe-image img {
@@ -163,5 +156,78 @@ nav a:hover {
     height: 250px;
     object-fit: cover;
     display: block;
-    margin-bottom: 15px;
+    margin: 15px;
+}
+
+.where-to-eat {
+    background-color: white;
+    max-width: 1200px; /* Prevents it from getting too wide on huge screens */
+    margin: 0 auto;    /* Centers the section on the page */
+    padding: 60px 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Clean sans-serif font */
+    color: #1a1a1a;
+}
+
+.where-to-eat-info {
+    margin: 40px;
+}
+
+.where-to-eat-info h2 {
+    font-size: 2rem;
+    max-width: 900px;
+    margin-bottom: 4px;
+} 
+
+.where-to-eat-info p {
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+}
+.eating-places-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px
+   
+}
+
+
+
+
+
+/* --- Footer Section --- */
+footer {
+    background-color: #F0A535; /* Same orange as the header */
+    padding: 50px 40px;        /* Tall padding matches the screenshot design */
+    margin-top: 60px;          /* Adds white space above the footer */
+    
+    /* Flexbox Layout */
+    display: flex;
+    justify-content: space-between; /* Pushes content to far left and right */
+    align-items: center;            /* Aligns text vertically in the middle */
+}
+
+/* Styling the Copyright Text */
+.copyright {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+/* Styling the Links List */
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between the links */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 0.8rem; /* Slightly smaller text for links */
+    transition: opacity 0.2s;
+}
+
+.footer-links a:hover {
+    opacity: 0.7;
 }
