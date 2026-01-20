@@ -136,7 +136,8 @@ nav a:hover {
 
 
 .healthy-recipies {
-    background-color: rgb(205, 203, 203);
+    background-color:  #e8ecf4;
+;
     max-width: 1200px; /* Prevents it from getting too wide on huge screens */
     margin: 0 auto;    /* Centers the section on the page */
     padding: 60px 20px;
@@ -251,3 +252,39 @@ footer {
     background-position: center;
     position: absolute;
 }
+/* recipie for burger otw*/ 
+
+.recipe-bar {
+    background-color: #e8ecf4;
+    padding: 30px;
+}
+
+.burger-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.burger-container h3 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    color:#1a1a1a;
+}
+
+.burger-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.burger-column p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color:#1a1a1a;
+}
+
+.burger-column strong {
+    font-weight: 700;
+}
+
+/* Bengal Burger Begins*/
+
